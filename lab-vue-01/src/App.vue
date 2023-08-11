@@ -1,20 +1,16 @@
 <script setup>
-import HeaderComponent from "../src/componentsDina/HeaderComponent.vue";
-import DivImageVue from "../src/componentsDina/DivImageVue.vue";
-import TextWelcomeVue from "../src/componentsDina/TextWelcomeVue.vue";
-import InfoMain from "./componentsDina/InfoMain.vue";
+import Lab1 from './components/Lab1.vue'
+
 </script>
 
 <template>
-  <div>
-    <HeaderComponent />
-  </div>
+ 
 
   <main>
-    <DivImageVue />
-    <TextWelcomeVue />
-    <InfoMain />
+    <Lab1 />
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
